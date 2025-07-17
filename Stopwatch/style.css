@@ -65,3 +65,25 @@ button[disabled] {
     padding: 1rem 2rem;
   }
 }
+
+
+
+/* Dark mode styles */
+body.dark-mode {
+  background-color: #121212;
+  color: #ffffff;
+}
+
+body.dark-mode #timer {
+  color: #ffffff;
+  text-shadow: 2px 2px #0ff;
+}
+
+body.dark-mode button {
+  background-color: #333333;
+  color: #ffffff;
+}
+
+body.dark-mode button:hover {
+  background-color: #666666;
+}

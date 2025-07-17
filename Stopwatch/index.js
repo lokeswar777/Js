@@ -52,3 +52,10 @@ function resetTimer() {
 startButtonEl.addEventListener("click", startTimer);
 stopButtonEl.addEventListener("click", stopTimer);
 resetButtonEl.addEventListener("click", resetTimer);
+
+
+const toggleDarkBtn = document.getElementById("toggle-dark");
+
+toggleDarkBtn.addEventListener("click", () => {
+  document.body.classList.toggle("dark-mode");
+});
